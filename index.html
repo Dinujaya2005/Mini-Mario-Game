@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Mario Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🍄 MINI MARIO ADVENTURE</h1>
+
+        <div class="game-info">
+            <span>PLAYER: MARIO</span>
+            <span>SCORE: <span id="score">0</span></span>
+            <span>LIVES: <span id="lives">3</span></span>
+        </div>
+
+        <canvas id="gameCanvas" width="960" height="540"></canvas>
+
+        <div class="controls">
+            <p>← → MOVE &nbsp;&nbsp; SPACE / ↑ JUMP</p>
+            <button id="restartBtn">RESTART GAME</button>
+        </div>
+
+        <p class="footer">Collect coins, avoid enemies and reach the flag!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
